@@ -6,18 +6,4 @@
 	<welcome-file>index.html</welcome-file>
 </welcome-file-list>
 
-<context-param>    
-   <param-name>ApplicationConsumer</param-name>
-   <param-value>br.gov.ancine.ws.restservice.core.consumer.core.listener.contextParameter.ApplicationConsumer</param-value>
-</context-param>
-
-<context-param>    
-   <param-name>package-consumer</param-name>
-   <param-value>br.com.consumer</param-value>
-</context-param>
-
-<listener>
-    <listener-class>br.gov.ancine.ws.restservice.core.consumer.core.listener.ConsumerApplicationListener</listener-class>
-</listener>
-
 </web-app>
